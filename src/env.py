@@ -16,7 +16,7 @@ class BuildEnvironment:
         self.pointCloud = []
         self.externalMap = map
         self.mapW, self.mapH = map.get_size()
-        self.mapWindowName = "RRT path planning"
+        self.mapWindowName = "PC Data"
         pygame.display.set_caption(self.mapWindowName)
         self.map = pygame.display.set_mode((self.mapW, self.mapH))
         self.infomap = None
