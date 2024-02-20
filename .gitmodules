@@ -1,0 +1,3 @@
+[submodule "QuadtreeMap"]
+	path = QuadtreeMap
+	url = git@github.com:matriculus/QuadtreeMap.git
